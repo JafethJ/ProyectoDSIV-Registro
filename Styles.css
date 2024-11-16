@@ -1,0 +1,70 @@
+body{
+    background-image: url(img/Background-wave.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/*Encabezado*/
+#titulo{
+    padding-top: 50px;
+    text-align: center;
+}
+#subtitulo{
+    text-align: center;
+}
+
+/*Campos de cedula*/
+#container_cedula{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+}
+#fcedulaC1{
+    width: 70px;
+}
+#fcedulaC2{
+    width: 70px;
+}
+#fcedulaC3{
+    width: 70px;
+}
+
+/*Div de formulario de datos generales*/
+#form_datos_generales{
+    width: 75%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    padding: 30px;
+    backdrop-filter: blur(4px);
+    background-color: rgba(0, 0, 0, 0.621);
+    border-radius: 25px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+
+}
+
+/*datos de planilla*/
+#subtitle_DP{
+    padding-top: 40px;
+}
+
+.textColor{
+    color: white !important;
+}
+
+/*tabla de la planilla*/
+#planillatable{
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+
+/*ESTILOS DE VER REGISTRO*/
+#boton_ver{
+    width: 50px;
+}
+#boton_buscar{
+    padding-left: 50px;
+}
